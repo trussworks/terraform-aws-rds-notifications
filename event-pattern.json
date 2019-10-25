@@ -1,0 +1,19 @@
+{
+  "detail": {
+    "eventName": [
+      "CopyDBSnapshot",
+      "CopyDBClusterSnapshot",
+      "ModifyDBSnapshot",
+      "ModifyDBSnapshotAttribute"
+    ],
+    "eventSource": [
+      "rds.amazonaws.com"
+    ]
+  },
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
+  "source": [
+    "aws.rds"
+  ]
+}

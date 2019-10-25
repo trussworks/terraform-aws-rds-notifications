@@ -9,8 +9,9 @@
  * ## Usage
  *
  * ```hcl
- * module "awsrds_notifications" {
- *   source = "../../modules/aws-rds-notifications"
+ * module "rds-notifications" {
+ *   source  = "trussworks/rds-notifications/aws"
+ *   version = "1.0.0"
  *
  *   sns_topic_name = "slack-events"
  * }

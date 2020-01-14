@@ -1,4 +1,3 @@
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 Enables notifications to an SNS topic when a RDS snapshot is copied or shared with another account.
 
 Creates the following resources:
@@ -17,6 +16,7 @@ module "rds-notifications" {
 }
 ```
 
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
 
 | Name | Description | Type | Default | Required |

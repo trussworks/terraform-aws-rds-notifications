@@ -1,3 +1,4 @@
+<!-- markdownlint-disable no-inline-html -->
 Enables notifications to an SNS topic when a RDS snapshot is copied or shared with another account.
 
 Creates the following resources:

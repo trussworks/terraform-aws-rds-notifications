@@ -30,4 +30,3 @@ resource "aws_cloudwatch_event_target" "main" {
     input_template = "\"AWS RDS Snapshot Change: Event <event> with request parameters: <parameters>.\""
   }
 }
-
